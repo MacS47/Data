@@ -1,5 +1,7 @@
 import random
 
+# Ao chamar a função um valor de dia, mês e ano no tipo (int) são retornados
+# além disso a data gerada é exibida em tela
 def gerar_data():
     
     year = random.randint(1925,2022)
@@ -25,6 +27,10 @@ def gerar_data():
 
 # ------------------------------------------------------------------------
 
+# Esta função verifica se o ano é bissexto
+# os parâmetros são valores do tipo int para
+# dia, mês e ano
+# No entanto, dia e mês são irrelevantes
 def verificar_ano_bissexto(day,month,year):
 
     if(( year % 4) == 0 and (year % 100) != 0 and month == 2):
@@ -37,6 +43,9 @@ def verificar_ano_bissexto(day,month,year):
 
 # ------------------------------------------------------------------------
 
+# A função abaixo verifica se uma data é verdadeira, 
+# considerando as particularidades de cada mês, inclusive 
+# quando se trata de um ano bissexto
 def verificar_data(day,month,year):
 
     ver = True
@@ -73,6 +82,10 @@ def verificar_data(day,month,year):
         print("Data inválida. Dia incorreto.")
 
 # ------------------------------------------------------------------------
+# Em desenvolvimento.
+# A função abaixo deve obter o dia da semana, baseado em
+# uma data informada com parâmetro, de acordo com o 
+# Calendário Gregoriano - O desafio aqui é popular o calendário
 
 def verificador_dia_semana():
 
