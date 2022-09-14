@@ -117,6 +117,5 @@ def verificador_dia_semana():
 
     # for i in range(0,28):
 
-
     # return day_week
 verificador_dia_semana()
