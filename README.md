@@ -6,7 +6,7 @@
 </div>
 
 ## 🎯 Propósito
-O objetivo aqui é desenvolver um script com funções de gerenciamento e manipulação de datas. _Ainda em desenvolvimento_
+O objetivo aqui é desenvolver um script com funções de gerenciamento e manipulação de datas. <!-- _Ainda em desenvolvimento_ -->
 
 ## 🧠 Experiência/Motivação
 Como o Python é muito dinâmico e possui recursos que auxiliam a reduzir linhas de código na construção de iterações, busquei testar meus conhecimentos e aplicar a lógica para desenvolver um código enxuto. 
@@ -19,4 +19,4 @@ Ainda em desenvolvimento, o script apresenta as funções ```gerar_data()```, ``
 * ```gerar_data()``` - retorna uma data válida com valores do tipo _int_ para  **dia, mês** e **ano**.
 * ```verificar_ano_bissexto()``` - retorna um texto informando se o ano  é bissexto ou não.
 * ```verificar_data()``` - retorna um texto informando se a data é válida ou não e, dependendo da data passada como parâmetro, identifica onde está o erro.
-* ```verificador_dia_semana()``` - **_em desenvolvimento_** - carrega o calendário gregoriano para memória e a partir dele verifica onde se encaixa a data informada como parâmetro, retornando o dia da semana.
+<!-- * ```verificador_dia_semana()``` - **_em desenvolvimento_** - carrega o calendário gregoriano para memória e a partir dele verifica onde se encaixa a data informada como parâmetro, retornando o dia da semana. -->
